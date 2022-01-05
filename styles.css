@@ -1,0 +1,373 @@
+body{
+    background-color: lightsteelblue;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+}
+.navbar{
+    background-color: yellowgreen;
+    padding: 1rem;
+    
+}
+
+    .logo {
+        text-decoration: none;
+        font-weight:bold;
+        color: black;
+        font-size: 1.2rem;
+        font-style: oblique;
+        
+        
+    }
+
+    .logo > span{
+            color: indigo;
+            font-style: oblique;
+            font-family: sans-serif;
+    }
+
+    .menu{
+        margin: 16px;
+        color: white ;
+        background: rgb(2, 0, 128);
+    }
+
+.hero{
+    position: relative;
+    
+    background-image: url("child.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    max-width: 100%;
+
+}
+
+
+.hero > h1{
+    background-color: purple;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    position: absolute;
+    top: 85%;
+}
+.hero > p{
+    position: absolute; 
+    top: 50%;
+    width: 50%;
+    float: right;
+}
+
+.better {
+    width: 40%;
+    float: right;
+    margin-top: 10%;
+    padding: 2%;
+    background-color:whitesmoke;
+    margin-right: 2rem;
+} 
+
+.col {
+    background-color: none;
+}
+
+
+.col.left{
+    background:green;
+    color: white;
+    
+   
+}
+
+    .col.left h3{color: white; text-align: center;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 3rem; }
+    .col.left h4{color: white;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center; text-decoration: underline;}
+
+    .col.left p{
+        margin: 5%;
+        text-align: center;
+        margin-top:0%;
+    }
+    
+
+.col.right{
+    background:green;
+    text-align: center;
+    color: white;
+    
+   
+
+}
+
+.col.right h3{
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+.col.right p{
+    padding-right: 12%;
+    padding-left: 12%;
+    margin: 1%px;
+    color: whitesmoke;
+}
+
+.contactus{ 
+    background-color: white;
+    text-align: center;
+    
+}
+
+
+}
+.contactus h1{
+    color: rgb(38, 38, 182);
+    font-style: oblique;
+    
+}
+
+.tellus p{
+    font-style: oblique;
+    color: navy;
+}
+
+.mediaicons{
+    background-color: lightslategrey;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 5;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 50px !important;
+    
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: 50px !important;
+  }
+
+  .fa-instagram {
+    background: #55ACEE;
+    color: 	#ccff33;
+    font-size: 50px !important;
+  }
+
+  .fa-youtube {
+    background: #55ACEE;
+    color: rgb(243, 61, 36);
+    font-size: 50px !important;
+  }
+
+  .container {
+    margin-left: 0px !important;
+  }
+
+  .intro{
+  margin-top: 1rem;
+  text-align: center;
+  text-indent: 3rem;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left: 12%;
+  padding-right: 12%;
+  }
+
+  .movis h1{
+      background-color: linen;
+      margin-bottom: 5%;
+      text-align: center;
+      color: magenta !important;
+      font-size: 3rem;
+  }
+  #footer-bottom .et-social-icon a {
+    color: #ffffff;
+}
+#footer-bottom a {
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.et-social-icon a {
+    display: inline-block;
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: color 300ms ease 0s;
+    transition: color 300ms ease 0s;
+    color: #666;
+    text-decoration: none;
+}
+
+a, abbr, acronym, address, applet, b, big, blockquote, body, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+@media (max-width: 980px)
+.et-social-icons li:first-child {
+    margin-left: 0;
+}
+.et-social-icons li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+@media (max-width: 980px)
+.et-social-icons {
+    margin: 0 0 5px;
+}
+
+@media (max-width: 980px)
+.et-social-icons {
+    float: none;
+    text-align: center;
+}
+.et-social-icons {
+    float: right;
+}
+ol, ul {
+    list-style: none;
+}
+
+
+
+.container {
+    width: 100%!important;
+    max-width: none!important;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.container {
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+}
+
+
+#footer-bottom {
+    background-color: #008c15;
+}
+#footer-bottom {
+    background-color: #1f1f1f;
+    background-color: rgba(0,0,0,0.32);
+    padding: 15px 0 5px;
+}
+a, abbr, acronym, address, applet, b, big, blockquote, body, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+#main-footer {
+    background-color: #008c15;
+}
+#main-footer {
+    -ms-flex-negative: 1;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 3;
+}
+#main-footer {
+    background-color: #222222;
+}
+article, aside, footer, header, hgroup, nav, section {
+    display: block;
+}
+
+#footer-info, #footer-info a {
+    color: #ffffff;
+}
+
+@media (max-width: 980px)
+#footer-info {
+    float: none;
+    text-align: center;
+}
+#footer-info {
+    text-align: left;
+    color: #666;
+    padding-bottom: 10px;
+    float: left;
+}
+
+}
+
+.wmpl-ls-custom-footer-heading {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #010101;
+}
+h5 {
+    font-family: "Gotham A", "Gotham B";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 0;
+}
+
+.wmpl-ls-custom-footer-heading .et-pb-icon {
+    font-size: 14px;
+}
+
+.et-pb-icon {
+    font-family: ETmodules;
+    content: attr(data-icon);
+    speak: none;
+    font-weight: 400;
+    
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    display: inline-block;
+    box-sizing: border-box;
+    direction: ltr;
+}
+
+  
+ 
+  
+
